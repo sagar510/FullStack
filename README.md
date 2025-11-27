@@ -28,5 +28,7 @@ Full Stack :
 
              2. CSS Layouts
                  a) Positoning
+                     -> Absolute
+                     -> Relative
                  b) FlexBox
                  c) Grid
