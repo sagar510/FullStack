@@ -13,4 +13,20 @@ Full Stack :
                       1. charset
                       2. rel
                       3. name & content for viewport
-              
+
+              3. Divisions 
+              4. Images
+              5. src 
+
+       CSS : 
+
+             1. Selectors 
+                 a) Element Selectors
+                 b) Class Selectors
+                 c) Element Selectors
+                 d) Descendent Selectors (Combinations)
+
+             2. CSS Layouts
+                 a) Positoning
+                 b) FlexBox
+                 c) Grid
