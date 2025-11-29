@@ -9,14 +9,13 @@
     <!-- Helps in responsive page design; makes page adjust to device width -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- rel means relationship; href specifies path where CSS file exists -->
-    <script src="" defer></script> <!-- 'defer' ensures JS loads only after HTML & CSS are fully loaded -->
+    <script src="./style.js" defer></script> <!-- 'defer' ensures JS loads only after HTML & CSS are fully loaded -->
 </head>
 
 <body>
     <div id="page">
         <h1>Plant Aquarium</h1>
-
-        <div id="left-container">
+        <div id="left-container" class="container">
             <div class="plant-holder">
                 <img class="plant" id="plant1" src="./images/plant1.png" alt="Green Plant" />
             </div>
@@ -46,12 +45,45 @@
             </div>
         </div>
 
-        <div id="jar-top"></div>
-        <div id="jar-walls"></div>
-        <div id="long-shine"></div>
-        <div id="short-shine"></div>
-        <div id="dirt"></div>
-        <div id="jar-bottom"></div>
+        <div id="right-container" class="container">
+            <div class="plant-holder">
+                <img class="plant" id="plant8" src="./images/plant1.png" alt="Green Plant" />
+            </div>
+
+            <div class="plant-holder">
+                <img class="plant" id="plant9" src="./images/plant2.png" alt="Leafy Plant" />
+            </div>
+
+            <div class="plant-holder">
+                <img class="plant" id="plant10" src="./images/plant3.png" alt="Leafy Plant" />
+            </div>
+
+            <div class="plant-holder">
+                <img class="plant" id="plant11" src="./images/plant4.png" alt="Leafy Plant" />
+            </div>
+
+            <div class="plant-holder">
+                <img class="plant" id="plant12" src="./images/plant5.png" alt="Leafy Plant" />
+            </div>
+
+            <div class="plant-holder">
+                <img class="plant" id="plant13" src="./images/plant6.png" alt="Leafy Plant" />
+            </div>
+
+            <div class="plant-holder">
+                <img class="plant" id="plant14" src="./images/plant7.png" alt="Leafy Plant" />
+            </div>
+        </div>
+
+        <div id="middle-container">
+            <div id="jar-top"></div>
+            <div id="jar-container">
+                <div id="long-shine"></div>
+                <div id="short-shine"></div>
+            </div>
+            <div id="dirt"></div>
+            <div id="jar-bottom"></div>
+        </div>
     </div>
 </body>
 

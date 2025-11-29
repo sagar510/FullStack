@@ -9,10 +9,68 @@ body {
 }
 
 h1 {
-    text-align: center;
     font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+#page {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    height: 115%;
+    width: 10%;
+    background-color: #d1e1df;
 }
 
 #left-container{
-    position: fixed;
+    left: 0;   
+}
+
+#right-container{
+    right: 0;
+}
+
+
+.plant-holder{
+    height: 14%;
+    position: relative;
+}
+
+.plant {
+    max-width: 150px;
+    max-height: 150px; 
+    position: absolute;
+    z-index: 2;
+}
+
+#middle-container {
+    height: 90vh;
+}
+
+#jar-top {
+    width : 50%;
+    height: 10%;
+    background-color: #d1e1df;
+    position: absolute;
+    left: 26%;
+    top: 21%;
+    border-radius: 5%;
+    z-index: 1;
+}
+
+#jar-container {
+    width : 60%;
+    height: 80%;
+    background-color: #d1e1dacf;
+    position: absolute;
+    left: 21%;
+    bottom: -10%;
+    border-radius: 5%;
+    opacity: 0.5;
+    z-index: 1;
 }
